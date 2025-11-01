@@ -2,7 +2,7 @@ from typing import Annotated, List, NamedTuple
 
 from fastmcp import FastMCP
 
-from todo_db import TodoDB
+from .todo_db import TodoDB
 
 
 class Todo(NamedTuple):
